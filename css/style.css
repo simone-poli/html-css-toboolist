@@ -35,10 +35,22 @@ body{
     background-color: #D863A1;
 }
 
+.bg-orange{
+    background-color: #F29E33;
+}
+
+.green{
+    color: green;
+}
+
+.red{
+    color: red;
+}
 /*utilities*/
 
-.pd-35{
-    margin-left: 35px;
+.pd-20{
+    padding-left: 20px;
+    padding-top: 20px;
 }
 
 /*Header*/
@@ -59,11 +71,6 @@ h1{
     font-size: 2rem;
     }
 
-    .main-container{
-        width: 60%;
-        margin: 0 auto;
-        border-radius: 5px;
-        }
     
         /*button section*/
 
@@ -86,5 +93,51 @@ button{
     font-size: small;
 }
 .btn-container{
-    margin-bottom: 2px;
+    margin: 3px auto;
+    padding-bottom: 2px;
+    width: 60%;
+    border-radius: 5px;
+}
+
+/* list section*/
+
+.list-container{
+    width: 60%;
+    margin: 0 auto;
+    border-radius: 5px;
+    padding-bottom: 30px;
+}
+
+ul{
+    list-style-type: none;
+    padding-top: 10px;
+
+}
+
+li{
+    padding-top: 10px;
+}
+
+li ul{
+    font-weight: bold;
+    font-size: medium;
+}
+
+.wrd-cont{
+    color: white;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 8px;
+}
+
+.cercle-gr{
+    padding: 1px 2px;
+    border-radius: 20px;
+    border: 1px solid green;
+}
+
+.cercle-rd{
+    padding: 1px 2px;
+    border-radius: 20px;
+    border: 1px solid red;
 }
