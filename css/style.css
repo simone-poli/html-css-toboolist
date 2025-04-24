@@ -115,12 +115,7 @@ ul{
 }
 
 li{
-    padding-top: 10px;
-}
-
-li ul{
-    font-weight: bold;
-    font-size: medium;
+    padding: 10px 0;
 }
 
 .wrd-cont{
@@ -134,10 +129,12 @@ li ul{
     padding: 1px 2px;
     border-radius: 20px;
     border: 1px solid green;
+    font-size:10px;
 }
 
 .cercle-rd{
     padding: 1px 2px;
     border-radius: 20px;
     border: 1px solid red;
+    font-size: 10px;
 }
